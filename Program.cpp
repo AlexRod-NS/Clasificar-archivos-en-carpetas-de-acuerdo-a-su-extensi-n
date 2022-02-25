@@ -5,7 +5,9 @@
 #include<vector>
 #include<algorithm>
 #define len(x) sizeof(x)/sizeof(x[0])
-
+/*
+    By: Alex Rodríguez
+*/
 int LastIndex(std::string word, char character){
     for(int i=word.length()-1; i>=0; i--) if(word[i] == character) return i;
     return -1;
