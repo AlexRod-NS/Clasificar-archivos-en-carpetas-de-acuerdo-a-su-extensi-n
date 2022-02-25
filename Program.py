@@ -1,6 +1,8 @@
 from getpass import getuser
 import os, shlex, subprocess
-
+'''
+    By: Alex Rodríguez
+'''
 def classify_files(path: str, extensiones: list()):
     folders = [f for f in os.listdir(path) if os.path.isdir(f)]
     for file in os.listdir(path):
