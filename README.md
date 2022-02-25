@@ -33,7 +33,11 @@ Estos algoritmos están hechos en 4 lenguajes de programación distintos.
         If e in extensions So
 
           change_path(path, e, folders, file)
-
+          
+        EndIf
+        
+      EndFor
+      
     EndFunction
 
 
@@ -44,6 +48,8 @@ Estos algoritmos están hechos en 4 lenguajes de programación distintos.
       
         ExecuteCommand(mkdir ext)
         
+      EndIf
+      
       ExecuteCommand(move file ext)
       
     EndFunction
