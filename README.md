@@ -29,7 +29,7 @@ Estos algoritmos están hechos en 4 lenguajes de programación distintos.
       folders <- getDirectories(path)
       files <- getFiles(path)
       For file in files Do
-        e <- getExtension(f)
+        e <- getExtension(file)
         If e in extensions So
           change_path(path, e, folders, file)
         EndIf
